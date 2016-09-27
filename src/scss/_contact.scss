@@ -1,0 +1,106 @@
+/*******************************************************************************
+ *
+ * Contact
+ *
+ ******************************************************************************/
+
+.contact {
+    padding-bottom: 20px;
+
+    background-color: rgba(169, 178, 162, .1);
+
+
+
+    &_title {
+        text-transform: uppercase;
+        font-weight: 100;
+        text-align: center;
+        padding: 50px 0 50px 0;
+        color: $brandGrey;
+        font-size: $fontSizeH1;
+        font-family: $fontFamilySansSerif;
+    }
+
+    &_formular{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 50%;
+
+        padding: 0 10px;
+
+        @media (min-width: 320px) and (max-width: 768px) {
+            max-width: 100%;
+        }
+
+        textarea {
+            height: 200px;
+            line-height: 150%;
+            resize:none;
+        }
+    }
+}
+.feedbackInput {
+    font-weight:100;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #EEE;
+    border: 2px solid #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: $fontFamilySansSerif;
+
+    @media (min-width: 320px) and (max-width: 768px) {
+
+    font-size: $fontSizeBase;
+}
+
+    &:focus{
+        background: #fff;
+        box-shadow: 0;
+        color: $brandGrey;
+        outline: none;
+        padding: 13px 13px 13px 54px;
+
+        &.-name {
+            border: 1px solid $brandOrange;
+        }
+
+        &.-email {
+            border: 1px solid $brandBlue;
+        }
+
+        &.-text {
+            border: 1px solid $brandMagenta;
+        }
+    }
+
+    &_button {
+        position: relative;
+        left: 25%;
+        width: 50%;
+        padding: 20px 0;
+
+        font-family: $fontFamilySansSerif;
+        font-size: $fontSizeH3;
+        font-weight: 300;
+
+        border: #fbfbfb solid 1px;
+        background-color: $brandGreen;
+        color:white;
+        cursor:pointer;
+
+        @media (min-width: 320px) and (max-width: 768px) {
+            width: 100%;
+            left: 0%;
+
+            font-size: $fontSizeBase;
+        }
+    }
+}

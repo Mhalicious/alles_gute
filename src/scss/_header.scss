@@ -1,0 +1,97 @@
+/*******************************************************************************
+ *
+ * Header
+ *
+ ******************************************************************************/
+
+.header {
+    /*background:url("../../org_img/header.jpg")50% 0 no-repeat;
+    background-size: cover;*!/
+*/
+
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 480px){
+      &_headerPicture {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        width: 100vw;
+        background: url(../img/header.jpg) no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        z-index: -1;
+        }
+
+
+  }
+
+
+    &_fullscreen{
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        overflow: hidden;
+        z-index: -100;
+
+        &_headerVideo {
+           top: 0;
+           left: 0;
+        }
+    }
+
+    @media only screen
+      and (min-width: 320px)
+      and (max-width: 480px){
+
+        &_fullscreen{
+            display:none;
+
+          &_headerVideo{
+              display:none;
+          }
+
+      }
+
+
+      }
+
+
+    &_title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 10px;
+
+        transform: translate(-50%, -50%);
+
+        background:rgba(255, 255, 255, .7);
+
+        img {
+            width: 600px;
+        }
+
+    }
+
+    @media only screen
+      and (min-width: 320px)
+      and (max-width: 480px){
+
+        &_title{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%, -50%);
+            padding: 20px;
+            top: 50%;
+        }
+
+        img{
+            width: 90vw;
+        }
+    }
+}

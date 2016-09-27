@@ -1,0 +1,57 @@
+/*******************************************************************************
+ *
+ * Info
+ *
+ ******************************************************************************/
+
+.info {
+    padding-top: 50px;
+    font-family: $fontFamilySansSerif;
+    background-color: rgba(169, 178, 162, .1);
+
+    &_title{
+        text-transform: uppercase;
+        font-weight: 100;
+        text-align: center;
+        padding: 0px 0 40px 0;
+        color: $brandGrey;
+        font-size: $fontSizeH1;
+        font-family: $fontFamilySansSerif;
+        a{
+            &.-lowerCase{
+                text-transform: lowercase;
+                line-height: 180%;
+            }
+        }
+
+    }
+
+    &_social{
+        text-align:center;
+        font-size: $fontSizeH3;
+        text-align:center;
+        font-weight: 300;
+        padding-bottom: 50px;
+        margin-top: -20px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        clear: both;
+
+        ul{
+            text-align: center;
+            list-style-type:none;
+            li{
+                display: inline-block;
+                padding: 25px;
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+
+    }
+
+}
