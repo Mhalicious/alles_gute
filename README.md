@@ -13,3 +13,7 @@ Christoph Krakauer Portfolio
 #####Added gulp to the project
 
 - date: 31/01/17
+
+#####Installed gulp to the project
+
+- date: 30/05/17
