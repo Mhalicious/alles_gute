@@ -13,7 +13,7 @@
         font-weight: 100;
         text-align: center;
         padding: 20px 0 50px 0;
-        color: $brandGrey;
+        color: black;
         font-size: $fontSizeH1;
         font-family: $fontFamilySansSerif;
 
@@ -28,15 +28,15 @@
         height: 170px;
 
         &.-choose{
-            background: $chooseColor;
+            background: black;
         }
 
         &.-print{
-            background: $printColor;
+            background: black;
         }
 
         &.-discover{
-            background: $discoverColor;
+            background: black;
         }
 
 
@@ -59,20 +59,20 @@
         font-weight: 300;
         text-align: center;
         padding: 20px 0 0 0;
-        color: $brandGrey;
+        color: black;
         font-size: $fontSizeH3;
         font-family: $fontFamilySansSerif;
 
         &.-choose{
-            color: $chooseColor;
+            color: black;
         }
 
         &.-print{
-            color: $printColor;
+            color: black;
         }
 
         &.-discover{
-            color: $discoverColor;
+            color: black;
         }
 
     }
