@@ -15,6 +15,8 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
 
+    display: none;
+
     &__container {
         position: absolute;
         top: 50%;
@@ -51,7 +53,7 @@
 
         &__links {
             margin-left: 50%;
-            padding: 2px;
+            padding: 10%;
 
             color: black;
         }

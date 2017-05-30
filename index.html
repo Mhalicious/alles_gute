@@ -21,6 +21,21 @@
         ga('send', 'pageview');*/
     </script>
 
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        (function($) {
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 1000) {
+                        $('.sidenav').fadeIn(500);
+                    } else {
+                        $('.sidenav').fadeOut(500);
+                    }
+                });
+            });
+        })(jQuery);
+    </script>
+
 </head>
 <body>
 
@@ -43,6 +58,23 @@
             <div class="image">
                 <img class="image__fullSize" src="assets/img/manmarket.jpg" alt="manmarket">
             </div>
+        </div>
+        <div class="pure-u-1">
+            <div class="image">
+                <img class="image__fullSize" src="assets/img/thaitypo.jpg" alt="thaitypo">
+            </div>
+        </div>
+
+        <div class="pure-u-1">
+            <div class="image">
+                <img class="image__fullSize" src="assets/img/manmarket.jpg" alt="manmarket">
+            </div>
+        </div>
+        <div class="pure-u-1">
+            <div class="image">
+                <img class="image__fullSize" src="assets/img/thaitypo.jpg" alt="thaitypo">
+            </div>
+        </div>
     </div>
 </section>
 <!-- Navigation -->
