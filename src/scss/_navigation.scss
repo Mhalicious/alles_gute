@@ -15,7 +15,7 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
 
-    display: none;
+    /*display: none;*/
 
     &__container {
         position: absolute;
@@ -27,20 +27,20 @@
     }
 
     &__menu-links-container {
-        border-bottom: solid 2px black;
+
 
         &__links {
             display: block;
 
-            font-weight: $normal;
-            padding: 4px 4px 4px 32px;
+            padding: 5px 5px 5px 30px;
             text-decoration: none;
             font-size: $fontSizeBase;
 
             color: black;
 
-            &:hover, &:active{
+            &:hover{
                 font-weight: $bold;
+
             }
         }
     }
@@ -49,10 +49,15 @@
         display: flex;
 
         margin-top: $marginMenu;
+        margin-left: 15%;
+        padding-top: $marginMenu;
+
+
+        border-top: solid 2px $grey;
 
 
         &__links {
-            margin-left: 50%;
+            margin: 0 40% 0 0;
 
             color: black;
         }

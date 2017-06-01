@@ -6,6 +6,9 @@
 
 .best {
     margin-left: $marginMenu;
+    padding-left: 50px;
+    padding-right: 50px;
+
 
     font-family: $fontFamilySansSerif;
 
@@ -23,6 +26,8 @@
 
     @media screen and (max-width: 1024px) {
         margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
 
     }
 }

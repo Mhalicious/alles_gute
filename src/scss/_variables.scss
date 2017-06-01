@@ -28,12 +28,16 @@ $line-height-base:        1.428571429; // 20/14
 
 // Font Weights
 //--------------------------------------------------
-$light:     100                                         !default;
+/*$light:     400                                         !default;*/
 $normal:    300                                         !default;
-$bold:      400                                         !default;
+$bold:      700                                         !default;
+$black:     900                                         !default;
 
 // Margin
 //--------------------------------------------------
 $marginMenu:            10%;
 
+// Color
+//--------------------------------------------------
+$grey: rgb(151,151,151);
 

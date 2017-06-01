@@ -5,7 +5,7 @@
  ******************************************************************************/
 
 //Navigation Fade in/Fade out
-$(document).ready(function() {
+/*$(document).ready(function() {
     $(window).scroll(function() {
         if($(this).scrollTop() > 1000) {
             $('.sidenav').fadeIn(500);
@@ -14,7 +14,7 @@ $(document).ready(function() {
         }
     });
 });
-(jQuery);
+(jQuery);*/
 
 
 

@@ -3,11 +3,13 @@
  * Global
  *
  ******************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,700,900);
 
 html {
 	height: 100%;
+
 	font-size: 18px;
+	font-weight: $normal;
 }
 
 body {
@@ -17,5 +19,8 @@ body {
 
 a {
 	text-decoration: none;
-	color: red;
+}
+
+.active {
+	font-weight: $black;
 }

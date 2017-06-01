@@ -1,1 +1,0 @@
-$(document).ready(function(){$(window).scroll(function(){$(this).scrollTop()>1e3?$(".sidenav").fadeIn(500):$(".sidenav").fadeOut(500)})}),jQuery;

@@ -5,17 +5,17 @@
  ******************************************************************************/
 
 .about {
-    padding: 50px;
-    font-family: $fontFamilySansSerif;
+    margin-left: $marginMenu;
+    padding-left: 50px;
+    padding-right: 50px;
 
     &_title{
-        text-transform: uppercase;
-        font-weight: 100;
+        /*text-transform: uppercase;*/
+        font-weight: $bold;
         text-align: center;
         padding: 20px 0 50px 0;
         color: black;
         font-size: $fontSizeH1;
-        font-family: $fontFamilySansSerif;
 
     }
 
