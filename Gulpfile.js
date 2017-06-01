@@ -36,7 +36,7 @@ gulp.task('js', function() {
     return gulp.src('src/js/*.js')
         .pipe(concat('main.js'))
         .pipe(uglify())
-        .pipe(rename('main.min.js'))
+        .pipe(rename('main.js'))
         .pipe(gulp.dest('assets/js/'))
 });
 

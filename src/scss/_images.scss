@@ -5,15 +5,10 @@
  ******************************************************************************/
 
 .image {
-    margin: 0 auto;
+    padding: 0 20px;
 
-
-    &__fullSize {
-        max-width: 100%;
-        height: auto;
-    }
-
-    &__halfSize {
+    @media screen and (max-width: 1024px) {
+        padding: 0;
 
     }
 }
