@@ -4,88 +4,67 @@
  *
  ******************************************************************************/
 
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: $marginMenu; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: white; /* White*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+.menu {
+    width: auto;
+    position: relative;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
 
-    /*display: none;*/
+    /* disable text selection by clicking */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
-    &__container {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        transform: translateY(-50%);
-        width: 100%;
-        margin: auto;
+    &__dropdown-link {
+        display: block;
+        height: 50px;
+        padding: 0 20px;
+        color: #000000;
+        font-size: 20px;
+        cursor: pointer;
+        background: transparent;
     }
 
-    &__menu-links-container {
-
+    &__dropdown {
+        display: none;
+        list-style-type: none;
+        padding: 0px;
+        min-width: 125px;
+        position: relative;
+        z-index: 100;
+        margin: 0;
+        background: rgba($grey,0.3);
 
         &__links {
+            padding: 0;
+            color: #FFFFFF;
             display: block;
-
-            padding: 5px 5px 5px 30px;
+            padding: 0 20px;
+            height: 40px;
+            line-height: 40px;
             text-decoration: none;
-            font-size: $fontSizeBase;
 
-            color: black;
-
-            &:hover{
+            &:hover {
                 font-weight: $bold;
+                text-decoration-line: underline;
 
+                color: black;
             }
         }
     }
-
-    &__soMe-container {
-        display: flex;
-
-        margin-top: $marginMenu;
-        margin-left: 15%;
-        padding-top: $marginMenu;
-
-
-        border-top: solid 2px $grey;
-
-
-        &__links {
-            margin: 0 40% 0 0;
-
-            color: black;
-        }
-    }
-
-    @media screen and (max-width: 1024px) {
-        display: none;
-
-    }
 }
 
-//Responsive Burger Menü Icon
-.icon {
-    display: none;
+//@media screen and (max-width: 1024px) {
+//
+//    .icon {
+//        float: right;
+//        display: block;
+//
+//        position: absolute;
+//        left: 2%;
+//        top: 1%;
+//    }
 
-    color: black;
-
-}
-
-@media screen and (max-width: 1024px) {
-
-    .icon {
-        float: right;
-        display: block;
-
-        position: absolute;
-        left: 2%;
-        top: 1%;
-    }
-}
 

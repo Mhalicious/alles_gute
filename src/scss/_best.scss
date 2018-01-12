@@ -5,10 +5,11 @@
  ******************************************************************************/
 
 .best {
-    margin-left: $marginMenu;
     padding-left: 50px;
     padding-right: 50px;
 
+    height: 100%;
+    left: 0;
 
     font-family: $fontFamilySansSerif;
 
@@ -28,6 +29,5 @@
         margin-left: 0;
         padding-left: 0;
         padding-right: 0;
-
     }
 }
